@@ -92,11 +92,15 @@ nav ul{
     align-items: center;
     gap: var(--espace);
     list-style: none;
+    padding: 0;
 }
 nav a{
     display: block;
-    padding: 1rem;
-    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--chocolat);
+    font-weight: bold;
 }
 footer {
     display: flex;
@@ -118,9 +122,16 @@ footer > div {
     flex-direction: column;
     border-radius: 8px;
     border: solid;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     width: 400px;
 }
-.carte .prix { margin-top: auto; }
+.carte .prix { 
+    margin-top: auto;
+    font-weight: bold;
+    color: var(--miel);
+}
 body {
     display: grid;
     grid-template-areas:
